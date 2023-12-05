@@ -4,6 +4,11 @@
   "description": "Superfast runtime validators with only one line",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "tsp": {
+    "tscOptions": {
+      "parseAllJsDoc": true
+    }
+  },
   "scripts": {
     "test": "npm run package:tgz",
     "-------------------------------------------------": "",
